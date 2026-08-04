@@ -1,0 +1,212 @@
+<div class='custom-premium-section'>
+    <div class='scrolling-bg-layer'/>
+    <div class='bg-overlay-tint'/>
+
+    <div class='premium-wrapper'>
+        <div class='premium-left'>
+            <h2 class='premium-heading'>MANISH CHAUDHARY</h2>
+            <div class='premium-animated-text'>
+                <span class='type-char' style='--i:1;'>L</span>
+<span class='type-char' style='--i:2;'>e</span>
+<span class='type-char' style='--i:3;'>a</span>
+<span class='type-char' style='--i:4;'>d</span>
+<span class='type-char' style='--i:5;'>i</span>
+<span class='type-char' style='--i:6;'>n</span>
+<span class='type-char' style='--i:7;'>g</span>
+<span class='type-char' style='--i:8;'>&#160;</span>
+<span class='type-char' style='--i:9;'>w</span>
+<span class='type-char' style='--i:10;'>i</span>
+<span class='type-char' style='--i:11;'>t</span>
+<span class='type-char' style='--i:12;'>h</span>
+<span class='type-char' style='--i:13;'>&#160;</span>
+<span class='type-char' style='--i:14;'>V</span>
+<span class='type-char' style='--i:15;'>i</span>
+<span class='type-char' style='--i:16;'>s</span>
+<span class='type-char' style='--i:17;'>i</span>
+<span class='type-char' style='--i:18;'>o</span>
+<span class='type-char' style='--i:19;'>n</span>
+<span class='type-char' style='--i:20;'>,</span>
+<span class='type-char' style='--i:21;'>&#160;</span>
+<span class='type-char' style='--i:22;'>D</span>
+<span class='type-char' style='--i:23;'>e</span>
+<span class='type-char' style='--i:24;'>s</span>
+<span class='type-char' style='--i:25;'>i</span>
+<span class='type-char' style='--i:26;'>g</span>
+<span class='type-char' style='--i:27;'>n</span>
+<span class='type-char' style='--i:28;'>i</span>
+<span class='type-char' style='--i:29;'>n</span>
+<span class='type-char' style='--i:30;'>g</span>
+<span class='type-char' style='--i:31;'>&#160;</span>
+<span class='type-char' style='--i:32;'>w</span>
+<span class='type-char' style='--i:33;'>i</span>
+<span class='type-char' style='--i:34;'>t</span>
+<span class='type-char' style='--i:35;'>h</span>
+<span class='type-char' style='--i:36;'>&#160;</span>
+<span class='type-char' style='--i:37;'>P</span>
+<span class='type-char' style='--i:38;'>u</span>
+<span class='type-char' style='--i:39;'>r</span>
+<span class='type-char' style='--i:40;'>p</span>
+<span class='type-char' style='--i:41;'>o</span>
+<span class='type-char' style='--i:42;'>s</span>
+<span class='type-char' style='--i:43;'>e</span>
+            </div>
+        </div>
+    </div>
+</div>
+<style type='text/css'>
+/*<![CDATA[*/
+/* Main Container - Edge to Edge Full Width */
+.custom-premium-section {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 550px; 
+    margin: 0 auto; 
+    position: relative;
+    overflow: hidden;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    z-index: 1;
+    border-radius: 0px; 
+    box-shadow: none !important; 
+    background-color: #1a1a1a; 
+}
+
+/* Continuous Vertical Down-Scroll Background */
+.scrolling-bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGouoMKdSDdK-Rpa4ZJMEEZayMKXAZWk5SVl5I1bWMlaG9udCa88WSbIbXDzgNylwMb8Gk9kHEtxfj5flruKJutMBO3_aW62H0CgVP380onYEIFweRwDJs3BambOq_5PZsrZbFHclShdMrZrIzbqX92XVLKrQvgSxLNWTk-nt5rwnZKH0T1u8vEuEAxH8/s1600/CHAPTER%201%20%E2%80%94%20When%20the%20Wind%20First%20Touches%20the%20Heart.jpeg');
+    background-size: cover;
+    background-repeat: repeat-y; 
+    z-index: 1;
+    animation: infiniteDownScroll 25s linear infinite;
+    will-change: background-position;
+}
+
+/* 🎯 ULTRA-FADE BLACK LAYER - Opacity dropped significantly to reveal crisp details of the background */
+.bg-overlay-tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Layer opacity perfectly calibrated to just 0.45 and 0.35 for crystal clear visibility */
+    background: linear-gradient(135deg, rgba(17, 17, 17, 0.45) 0%, rgba(25, 25, 25, 0.35) 100%); 
+    z-index: 2;
+}
+
+@keyframes infiniteDownScroll {
+    0% { background-position: center 0px; }
+    100% { background-position: center 1000px; }
+}
+
+.premium-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 3; 
+}
+
+.premium-left {
+    width: 100%;
+    padding-left: 8%; 
+    padding-right: 40px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.premium-heading {
+    font-size: 46px; 
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* Added powerful drop shadow to protect typography readability over clear background elements */
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.85), 0 2px 4px rgba(0, 0, 0, 0.9) !important; 
+}
+
+/* Character Slide Animation Engine */
+.premium-animated-text {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff; /* Shifted slightly to solid white for maximum contrast on clear background */
+    letter-spacing: 1.5px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.95), 0 2px 5px rgba(0, 0, 0, 0.9) !important; 
+}
+
+.type-char {
+    opacity: 0;
+    display: inline-block;
+    transform: translateX(-20px);
+    animation: slideCharacter 6s infinite ease-in-out;
+    animation-delay: calc(0.06s * var(--i));
+}
+
+@keyframes slideCharacter {
+    0% { opacity: 0; transform: translateX(-20px); }
+    5%, 70% { opacity: 1; transform: translateX(0); }
+    75%, 100% { opacity: 0; transform: translateX(20px); }
+}
+
+/* 📱 MOBILE VIEWPORT CORRECTIONS */
+@media screen and (max-width: 768px) {
+    .custom-premium-section {
+        height: 220px; 
+    }
+    
+    .premium-left {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center; 
+    }
+
+    .premium-heading {
+        display: block !important;
+        font-size: 22px; 
+        letter-spacing: 1.5px;
+        margin: 0 0 10px 0;
+    }
+    
+    .premium-animated-text {
+        font-size: 16px;
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .custom-premium-section {
+        height: 180px; 
+    }
+    
+    .premium-heading {
+        font-size: 18px;
+    }
+    
+    .premium-animated-text {
+        font-size: 14px;
+    }
+}
+/*]]>*/
+</style> 
+  
+
+
+
+
+
+
