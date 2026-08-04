@@ -205,6 +205,249 @@
 </style> 
   
 
+<!-- 📌 PREMIUM 3D GRID SECTION (DESKTOP & MOBILE FIXED MIRROR VIEW) START -->
+<div class='custom-premium-3d-section'>
+  <div class='section-inner-container'>
+    
+    <h2 class='section-main-heading'>MY SKILLS</h2>
+    
+    <div class='boxes-3d-grid'>
+      
+      <div class='box-3d-item color-1'>
+        <span class='box-text'>LEADERSHIP</span>
+      </div>
+      
+      <div class='box-3d-item color-2'>
+        <span class='box-text'>AI</span>
+      </div>
+      
+      <div class='box-3d-item color-3'>
+        <span class='box-text'>GRAPHIC DESIGN</span>
+      </div>
+      
+      <div class='box-3d-item color-4'>
+        <span class='box-text'>WEB DEVELOPMENT</span>
+      </div>
+      
+      <div class='box-3d-item color-5'>
+        <span class='box-text'>UI/UX DESIGN</span>
+      </div>
+      
+      <div class='box-3d-item color-6'>
+        <span class='box-text'>DIGITAL MARKETING</span>
+      </div>
+      
+      <div class='box-3d-item color-7'>
+        <span class='box-text'>SOCIAL MEDIA</span>
+      </div>
+      
+      <div class='box-3d-item color-8'>
+        <span class='box-text'>VIDEO EDITING</span>
+      </div>
+
+      <div class='box-3d-item color-9'>
+        <span class='box-text'>BRANDING</span>
+      </div>
+
+      <div class='box-3d-item color-10'>
+        <span class='box-text'>PROJECT MANAGEMENT</span>
+      </div>
+
+      <div class='box-3d-item color-11'>
+        <span class='box-text'>DATA ANALYTICS</span>
+      </div>
+
+      <div class='box-3d-item color-12'>
+        <span class='box-text'>PROBLEM SOLVING</span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+<!-- 📌 PREMIUM 3D GRID SECTION END -->
+
+
+<!-- Blogger Safe Balanced Layout Styling Sheet -->
+<style type='text/css'>
+/*<![CDATA[*/
+/* --- FULL WIDTH BASE CONFIGURATION --- */
+.custom-premium-3d-section {
+  width: 100vw !important;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #f4f4f4; 
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0; 
+}
+
+/* Inner chassis */
+.section-inner-container {
+  width: 100%;
+  max-width: 1600px;
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+/* Heading H2 Styles */
+.section-main-heading {
+  font-size: 28px; 
+  font-weight: 800;
+  color: #222222;
+  margin: 0 0 25px 0; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  text-align: center;
+}
+
+/* 🎯 FIXED ROW CONFIGURATION: Locks grid to exactly 6 items per row globally */
+.boxes-3d-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) !important;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* --- PREMIUM 3D BOX ARCHITECTURE --- */
+.box-3d-item {
+  width: 100%; 
+  height: 55px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  box-sizing: border-box;
+  padding: 5px;
+  
+  /* 3D Layering Box Shadows */
+  box-shadow: 
+    0 1px 0 #cccccc,
+    0 2px 0 #c5c5c5,
+    0 3px 0 #bbbbbb,
+    0 4px 0 #b1b1b1,
+    0 5px 1px rgba(0,0,0,.1),
+    0 0 4px rgba(0,0,0,.1),
+    0 1px 2px rgba(0,0,0,.2),
+    0 3px 4px rgba(0,0,0,.15),
+    0 5px 8px rgba(0,0,0,.2),
+    0 10px 15px rgba(0,0,0,.12);
+    
+  /* Continuous Smooth Slow Animation Trigger */
+  animation: smoothFloat 4s ease-in-out infinite;
+}
+
+.box-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Distinct 12 Premium 3D Colors Layering & Delay Sync */
+.color-1 { background: linear-gradient(135deg, #ff416c, #ff4b2b); animation-delay: 0s; }
+.color-2 { background: linear-gradient(135deg, #1fa2ff, #12d6df); animation-delay: 0.2s; }
+.color-3 { background: linear-gradient(135deg, #11998e, #38ef7d); animation-delay: 0.4s; }
+.color-4 { background: linear-gradient(135deg, #ff9966, #ff5e62); animation-delay: 0.6s; }
+.color-5 { background: linear-gradient(135deg, #7f00ff, #e100ff); animation-delay: 0.8s; }
+.color-6 { background: linear-gradient(135deg, #f12711, #f5af19); animation-delay: 1s; }
+.color-7 { background: linear-gradient(135deg, #00c6ff, #0072ff); animation-delay: 1.2s; }
+.color-8 { background: linear-gradient(135deg, #f857a6, #ff5858); animation-delay: 1.4s; }
+.color-9 { background: linear-gradient(135deg, #11998e, #1fa2ff); animation-delay: 1.6s; }
+.color-10 { background: linear-gradient(135deg, #3a7bd5, #3a6073); animation-delay: 1.8s; }
+.color-11 { background: linear-gradient(135deg, #e65c00, #f9d423); animation-delay: 2s; }
+.color-12 { background: linear-gradient(135deg, #4ea1d3, #e85a71); animation-delay: 2.2s; }
+
+/* --- SLOW FLOATING ANIMATION LOGIC --- */
+@keyframes smoothFloat {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+/* --- RESPONSIVE PROFILE (FIXED CENTERED MIRROR VIEW) --- */
+@media screen and (max-width: 1024px) {
+  .boxes-3d-grid {
+    gap: 12px;
+    padding: 0 15px;
+  }
+  .box-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-premium-3d-section {
+    padding: 20px 0; 
+  }
+  .section-inner-container {
+    padding: 10px 10px; /* Consolidate padding to maximize safe center space */
+  }
+  .section-main-heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .boxes-3d-grid {
+    gap: 6px !important; 
+    padding: 0 4px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .box-3d-item {
+    height: 45px; /* Better vertical breathing room for double-line text */
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.1); /* Slightly flatter shadow for tiny elements */
+  }
+  .box-text {
+    font-size: 9px;
+    letter-spacing: 0px;
+    white-space: normal !important; /* CRITICAL: Enables automatic grid wrapping */
+    word-break: break-word; /* Prevents overflow pushing elements off-right */
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-inner-container {
+    padding: 10px 5px;
+  }
+  .boxes-3d-grid {
+    gap: 4px !important;
+    padding: 0 2px !important;
+  }
+  .box-3d-item {
+    height: 42px;
+    padding: 2px;
+  }
+  .box-text {
+    font-size: 7.5px;
+    line-height: 1;
+  }
+}
+/*]]>*/
+</style>  
+  
+  
 
 
 
